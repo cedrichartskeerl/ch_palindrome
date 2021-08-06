@@ -19,11 +19,15 @@ module ChPalindrome
     # Returns content for palindrome testing.
     def processed_content
     	# self.letters.downcase
-      self.to_s.scan(/[a-z]/i).join.downcase
+      self.to_s.scan(/[a-z]\d/i).join.downcase
     end
 end
 
 class String
+	include ChPalindrome
+end
+
+class Integer
 	include ChPalindrome
 end
 
