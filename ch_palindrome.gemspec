@@ -5,7 +5,7 @@ require_relative "lib/ch_palindrome/version"
 Gem::Specification.new do |spec|
   spec.name          = "ch_palindrome"
   spec.version       = ChPalindrome::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Cedric Hartskeerl"]
   spec.email         = ["cedrichartskeerl@gmail.com"]
 
   spec.summary       = "Detects palindromes"
@@ -17,7 +17,7 @@ Gem::Specification.new do |spec|
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/cedrichartskeerl/ch_palindrome"
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["changelog_uri"] = "https://github.com/cedrichartskeerl/ch_palindrome/blob/main/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
