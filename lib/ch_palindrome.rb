@@ -2,9 +2,8 @@
 
 require_relative "ch_palindrome/version"
 
-class String
-
-  # Returns true for a palindrome, false otherwise.
+module ChPalindrome
+	  # Returns true for a palindrome, false otherwise.
   def palindrome?
     processed_content == processed_content.reverse
   end
@@ -20,10 +19,12 @@ class String
     # Returns content for palindrome testing.
     def processed_content
     	# self.letters.downcase
-      self.scan(/[a-z]/i).join.downcase
+      self.to_s.scan(/[a-z]/i).join.downcase
     end
+end
 
-
+class String
+	include ChPalindrome
 end
 
 # Madam, I'm Adam.
