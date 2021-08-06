@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["TODO: Write your name"]
   spec.email         = ["cedrichartskeerl@gmail.com"]
 
-  spec.summary       = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description   = "TODO: Write a longer description or delete this line."
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Detects palindromes"
+  spec.description   = "From the Ruby tutorial of learn enough to be dangerous"
+  spec.homepage      = "https://github.cedrichartskeerl/ch_palindrome"
   spec.required_ruby_version = ">= 2.4.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'https://mygemserver.com'"
