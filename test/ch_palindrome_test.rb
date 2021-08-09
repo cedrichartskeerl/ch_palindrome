@@ -7,7 +7,6 @@ class ChPalindromeTest < Minitest::Test
     refute_nil ::ChPalindrome::VERSION
   end
 
-
   def test_non_palindrome
     refute "apple".palindrome?
   end
@@ -26,10 +25,12 @@ class ChPalindromeTest < Minitest::Test
 
   def test_integer_non_palindrome
   	refute 12345.palindrome?
+  	# skip
   end
 
   def test_integer_palindrome
   	assert 12321.palindrome?
+  	# skip
   end
 
   # def test_letters
