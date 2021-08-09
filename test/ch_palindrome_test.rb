@@ -11,9 +11,13 @@ class ChPalindromeTest < Minitest::Test
     refute "apple".palindrome?
   end
 
-  def test_empty_palindrome
-    refute "   ".palindrome?
-  end
+ def test_empty_string_non_palindrome
+  refute "".palindrome?
+end
+
+def test_whitespace_string_non_palindrome
+  refute "  \n \t \r   ".palindrome?
+end
 
   def test_literal_palindrome
     assert "racecar".palindrome?
